@@ -1,0 +1,82 @@
+\documentclass[11pt]{article} %Sets the default text size to 11pt and class to article.
+%------------------------Dimensions--------------------------------------------
+\topmargin=0.0in %length of margin at the top of the page (1 inch added by default)
+\oddsidemargin=0.0in %length of margin on sides for odd pages
+\evensidemargin=0in %length of margin on sides for even pages
+\textwidth=6.5in %How wide you want your text to be
+\marginparwidth=0.5in
+\headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
+\headsep=0pt %Increase to increase white space in between headers and the top of the page
+\textheight=10.0in %How tall the text body is allowed to be on each page
+
+\newcommand{\name}[1]{
+  \centerline{\Huge{#1}}
+  }
+ 
+
+  
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\name{Nathan St. Amour}
+\begin{center}
+%\centerline{\large{\begin{bf}Permanent:\end{bf} 7589 Glen Meadow Dr }}
+
+%\centerline{\large{ West Chester, Ohio 45069}}
+ 
+% \centerline{\large{\begin{bf}School:\end{bf} 22 University Terr, Bryan Hall}}
+ 
+% \centerline{\large{Athens, Ohio 45701}} 
+\centerline{\large{ns196414@ohio.edu}}
+\centerline{Github: neewamp}
+\centerline{\large{(513)-593-4855}}
+
+\end{center}
+ \subsection*{Objective}
+ I am a student at Ohio University working toward a bachelors degree in computer science who is interested in summer internships and co-ops.
+  \subsection*{Education}
+  Bachelor of Science in Computer Science; Expected graduation; May 2018\\
+  Major GPA    3.26/4.0 \\
+Cumulative GPA   3.01/4.0
+
+
+\subsection*{Related Coursework}
+Data Structures CS 3610, Organization of Programming Languages CS 3200, Special Topics in Computer Science CS/EE 4900(IOT/WirelessNetworking), Intro to Computer Science CS 2401(C\texttt{++}), Introduction to Logical Design EE 1024, Calculus 2, Discrete Math CS 3000, Software Engineering Tools and Practice CS 3560, Professional and Ethical Computing CS 2650.
+\subsection*{Technical Skills}
+
+
+\begin{bf}\emph {Operating systems}:\end{bf}\textbf { Microsoft Windows}: Microsoft Office Suite and Visual Studio, \textbf{Linux}:  Latex, Bash,  etc.\\
+\begin{bf}\emph {Languages}:\end{bf} C\texttt{++}, C$^\texttt{\#}$, Python, Coq, Scheme,  html, basic understanding of: .NET, SQL, Java Script and css  \\ 
+\begin{bf}\emph {Structure}:\end{bf} MVC
+
+\subsection*{Affiliations}
+\begin{itemize}
+\item{\begin{bf}Treasurer\end{bf} for the Association for Computer Machinery(ACM) Club at Ohio University}\\
+-- I competed in ICPC this year with a team from Ohio University's ACM \\
+-- Organized a fund raising event for the ACM.
+%-- Developed an algorithm, that was refined by my teammates and I, to solve a problem.\item{Independent study with a graduate CS student learning the software verification tool Coq.  }
+\item{\begin{bf}Research\end{bf} }\\--Working on Algorithmic game theory in Coq.  Currently writing a C\texttt{++} implementation for the multiplicative weights algorithm to use as a baseline for code efficiency.
+\end{itemize}
+
+
+\subsection*{Professional Experience}
+\texttt{United Dairy Farmers}, West Chester Ohio\\
+Aug. 2013 \textbf{--} Aug 2014\\
+Sales Associate
+\begin{itemize}
+\item{Operated cash register, handling both customer and distributer transactions.}
+\item{ Assisted customers as needed by being a polite and listening to their needs, helping me develop interpersonal skills.}
+\item{ Maintained inventory.}
+\end{itemize}
+
+           
+
+
+
+
+
+
+
+\end{document}
